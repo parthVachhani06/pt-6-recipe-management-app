@@ -1,0 +1,30 @@
+/* RecipeForm.css */
+
+body {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef); /* Light gradient background */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .recipe-form-container {
+    max-width: 600px; /* Maximum width for the form */
+    margin: auto; /* Center align container */
+    padding: 40px; /* Padding for the form */
+    background-color: #ffffff; /* White background for content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  }
+  
+  h1 {
+    color: #343a40; /* Darker text color */
+    font-size: 2.5rem; /* Larger font size for header */
+    margin-bottom: 20px; /* Margin below header */
+  }
+  
+  .btn {
+    transition: background-color 0.3s; /* Smooth transition for button hover */
+  }
+  
+  .btn:hover {
+    opacity: 0.9; /* Slightly fade button on hover */
+  }
+  

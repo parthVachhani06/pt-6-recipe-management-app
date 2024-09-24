@@ -1,0 +1,77 @@
+
+body {
+    background: linear-gradient(to right, #f8f9fa, #e9ecef); 
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .recipe-list-container {
+    padding: 40px; 
+    max-width: 800px;
+    margin: auto; 
+    background-color: #ffffff;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  h1 {
+    color: #343a40;
+    font-size: 2.5rem; 
+    margin-bottom: 20px; 
+  }
+  
+  .table-responsive {
+    overflow-x: auto; 
+  }
+  
+  .table {
+    width: 100%; 
+    border-collapse: collapse;
+  }
+  
+  .table-header {
+    background-color: #007bff; 
+    color: white;
+  }
+  
+  .table th, .table td {
+    padding: 12px; 
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .table tr:hover {
+    background-color: #f1f1f1; 
+  }
+  
+  .btn {
+    transition: background-color 0.3s; 
+  }
+  
+  .btn:hover {
+    opacity: 0.9; 
+  }
+  
+  .btn-danger {
+    background-color: #dc3545; 
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e0a800; 
+  }
+  
+  .btn-info {
+    background-color: #17a2b8; 
+  }
+  
+  .btn-info:hover {
+    background-color: #138496; 
+  }
+  
